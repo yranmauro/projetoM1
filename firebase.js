@@ -23,18 +23,13 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-//   apiKey: process.env.API_KEY,
-//   authDomain: process.env.AUTH_DOMAIN,
-//   projectId: process.env.PROJECT_ID,
-//   storageBucket: process.env.STORAGE_BUCKET,
-//   messagingSenderId: process.env.MESSAGING_SENDER_ID,
-//   appId: process.env.APP_ID
-  apiKey: "AIzaSyBl0ovNHGsA83h32a85Z_pGnvmnZFIwz_I",
-  authDomain: "controle-de-gastos-16afd.firebaseapp.com",
-  projectId: "controle-de-gastos-16afd",
-  storageBucket: "controle-de-gastos-16afd.firebasestorage.app",
-  messagingSenderId: "889474821600",
-  appId: "1:889474821600:web:7c323a932e98edd97ecf85"
+    apiKey: process.env.EXPO_PUBLIC_API_KEY,
+    authDomain: process.env.EXPO_PUBLIC_AUTH_DOMAIN,
+    projectId: process.env.EXPO_PUBLIC_PROJECT_ID,
+    storageBucket: process.env.EXPO_PUBLIC_STORAGE_BUCKET,
+    messagingSenderId: process.env.EXPO_PUBLIC_MESSAGING_SENDER_ID,
+    appId: process.env.EXPO_PUBLIC_APP_ID
+  
 };
 
 // evita erro de duplicação de app
